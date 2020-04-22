@@ -6,25 +6,22 @@ class Right extends Component {
     return (
       <div className="right">
         <div className="right-inner">
-          <div className="content">
-            <div className="exp-item">
-              <div className="job">
-                <h4>
-                  <a
-                    className="company"
-                    href="https://www.tjx.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    TJX Companies
-                  </a>
-                </h4>
-                <div className="title">
-                  Software Engineer Co-op (Contractor)
-                </div>
-                <div className="duration">Feb. 2020 &mdash; March 2020</div>
-                <div className="location">Framingham, MA</div>
-              </div>
+          <div className="exp-item">
+            <h4>
+              <a
+                className="company"
+                href="https://www.tjx.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                TJX Companies (2020)
+              </a>
+            </h4>
+            <div className="job">
+              <div className="title">Software Engineer Co-op (Contractor)</div>
+              <div className="location">Framingham, MA</div>
+              <div className="duration">Feb. 2020 &mdash; March 2020</div>
+
               <ul className="description">
                 <li>
                   Support, monitor, and maintain critical web-functionality of
@@ -53,24 +50,25 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
-            <div className="exp-item">
-              <div className="job">
-                <h4>
-                  <a
-                    className="company"
-                    href="https://www.leisurepassgroup.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Leisure Pass Group
-                  </a>
-                </h4>
-                <div className="title">
-                  Software Application Support Engineer / Java developer
-                </div>
-                <div className="duration">Sept. 2019 &mdash; Feb. 2020</div>
-                <div className="location">Boston, MA</div>
+          </div>
+
+          <div className="exp-item">
+            <h4>
+              <a
+                className="company"
+                href="https://www.leisurepassgroup.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Leisure Pass Group (2019-2020)
+              </a>
+            </h4>
+            <div className="job">
+              <div className="title">
+                Software Application Support Engineer / Java developer
               </div>
+              <div className="location">Boston, MA</div>
+              <div className="duration">Sept. 2019 &mdash; Feb. 2020</div>
               <ul className="description">
                 <li>
                   Built and Maintained Continuous Integration with CircleCI and
@@ -114,26 +112,25 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <h4>
-                  <a
-                    className="company"
-                    href="https://www.vestmark.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Vestmark
-                  </a>
-                </h4>
-                <div className="title">
-                  Managed Services Team: Systems Engineer
-                </div>
-
-                <div className="duration">June 2018 &mdash; Sept. 2019</div>
-                <div className="location">Wakefield, MA</div>
+          <div className="exp-item">
+            <h4>
+              <a
+                className="company"
+                href="https://www.vestmark.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Vestmark (2018-2019)
+              </a>
+            </h4>
+            <div className="job">
+              <div className="title">
+                Managed Services Team: Systems Engineer
               </div>
+              <div className="location">Wakefield, MA</div>
+              <div className="duration">June 2018 &mdash; Sept. 2019</div>
               <ul className="description">
                 <li>
                   Monitor, troubleshoot, and triage system health and database
@@ -161,24 +158,23 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <h4>
-                  <a
-                    className="company"
-                    href="https://www.libertymutual.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Liberty Mutual Insurance Group (2011 – 2018)
-                  </a>
-                </h4>
-              </div>
+          <div className="exp-item">
+            <h4>
+              <a
+                className="company"
+                href="https://www.libertymutual.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Liberty Mutual Insurance Group (2011 – 2018)
+              </a>
+            </h4>
+            <div className="job">
               <div className="title">Software Developer</div>
-
-              <div className="duration">March 2017 &mdash; June 2018</div>
               <div className="location">Boston, MA</div>
+              <div className="duration">March 2017 &mdash; June 2018</div>
               <ul className="description">
                 <li>
                   Produced clean and reusable software in fail-fast, rapid
@@ -202,14 +198,13 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <div className="title">Senior Software / Systems Engineer</div>
-
-                <div className="duration">Oct. 2011 &mdash; March 2017</div>
-                <div className="Location">Boston, MA</div>
-              </div>
+          <div className="exp-item">
+            <div className="job">
+              <div className="title">Senior Software / Systems Engineer</div>
+              <div className="Location">Boston, MA</div>
+              <div className="duration">Oct. 2011 &mdash; March 2017</div>
               <ul className="description">
                 <li>
                   Designed clear, comprehensive system, technical and
@@ -235,22 +230,23 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <h4>
-                  <a
-                    className="company"
-                    href="https://www.statestreet.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    State Street Corporation (2000 - 2011)
-                  </a>
-                </h4>
-              </div>
-              <div className="duration">Nov. 2008 &mdash; Oct. 2011</div>
+          <div className="exp-item">
+            <h4>
+              <a
+                className="company"
+                href="https://www.statestreet.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                State Street Corporation (2000 - 2011)
+              </a>
+            </h4>
+            <div className="job">
               <div className="title">Application Support Engineer</div>
+              <div className="location">Boston, MA</div>
+              <div className="duration">Nov. 2008 &mdash; Oct. 2011</div>
               <ul className="description">
                 <li>
                   Maintained, monitored, and supported UNIX/Linux Apps with
@@ -273,12 +269,13 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <div className="duration">Sept. 2007 &mdash; Nov. 2008</div>
-              </div>
+          <div className="exp-item">
+            <div className="job">
               <div className="title">Trade Application Engineer</div>
+              <div className="location">Boston, MA</div>
+              <div className="duration">Sept. 2007 &mdash; Nov. 2008</div>
               <ul className="description">
                 <li>
                   Supported and maintained trading applications and
@@ -294,14 +291,15 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <div className="duration">Sept. 2004 &mdash; Sept. 2007</div>
-              </div>
+          <div className="exp-item">
+            <div className="job">
               <div className="title">
                 Data Center Operations | Night Shift Manager
               </div>
+              <div className="location">Quincy, MA</div>
+              <div className="duration">Sept. 2004 &mdash; Sept. 2007</div>
               <ul className="description">
                 <li>
                   Technical Support Manager for the night shift Open Systems
@@ -321,12 +319,15 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <div className="duration">June 2001 &mdash; Sept. 2004</div>
-              </div>
+          <div className="exp-item">
+            <div className="job">
               <div className="title">Application Support Engineer</div>
+
+              <div className="location">Boston, MA</div>
+              <div className="duration">June 2001 &mdash; Sept. 2004</div>
+
               <ul className="description">
                 <li>
                   Provided 3rd tier support for a real-time enterprise online
@@ -346,14 +347,15 @@ class Right extends Component {
                 </li>
               </ul>
             </div>
+          </div>
 
-            <div className="exp-item">
-              <div className="job">
-                <div className="duration">April 2000 &mdash; June 2001</div>
-              </div>
+          <div className="exp-item">
+            <div className="job">
               <div className="title">
                 Network Operating Center (NOC) | Communications Analyst
               </div>
+              <div className="location">Quincy, MA</div>
+              <div className="duration">April 2000 &mdash; June 2001</div>
               <ul className="description">
                 <li>
                   Supported over 6,000 Solaris, AIX, HP UNIX/NT enterprise

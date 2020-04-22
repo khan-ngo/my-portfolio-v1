@@ -5,7 +5,7 @@ import {
   ProjectContainer,
   ProjectHeader,
   ContentWrapper,
-} from "./ExperienceStyles";
+} from "../Experience/ExperienceStyles";
 
 class Experience extends Component {
   state = {};

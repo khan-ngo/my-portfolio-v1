@@ -7,31 +7,24 @@ a {
     display: inline-block;
     vertical-align: top;
     float: right;
-
 }
 
 .right-inner {
     padding: 25px;
-}
-
-
-.right ul {
-    padding: 0;
-    margin: 0;
-}
-
-.right .content {
     width: 95%;
-    padding: 0;
     margin: 0 0 20px;
     font-weight: 300;
     line-height: 1.5;
 }
 
-.right .content ul.description {
-    padding-left: 30px;
+.right ul {
+    padding-left: 45px;
     margin-top: 5px;
     font-size: 15px;
+}
+
+.company {
+    margin-top: 20px;
 }
 
 .right .introduction .intro-p:first-of-type {
@@ -51,12 +44,6 @@ a {
 
 .right h4,
 .right .content {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.right h4,
-.right .content {
     display: block;
     vertical-align: top;
     width: 100%;
@@ -65,9 +52,7 @@ a {
 
 .right h4 {
     position: relative;
-    top: 0px;
-    width: 20%;
-    margin: 0 0 20px;
+    margin: 20px 0 0px;
     text-transform: uppercase;
 }
 
