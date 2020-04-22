@@ -17,10 +17,9 @@ class Experience extends Component {
       <Element name="Projects">
         <ProjectContainer>
           <ProjectHeader>Work Experience</ProjectHeader>
-          {/* <Left /> */}
-          <Right />
-          <ContentWrapper />
         </ProjectContainer>
+        <Left />
+        <Right />
       </Element>
     );
   }
