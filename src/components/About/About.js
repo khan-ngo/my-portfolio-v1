@@ -9,11 +9,8 @@ import {
   AboutHeader,
   BioWrapper,
   BioTextWrapper,
-  ProfilePic,
   BioText,
 } from "./AboutStyles";
-
-import profileImage from "../../assets/headshot.png";
 
 class About extends Component {
   state = {
@@ -31,7 +28,6 @@ class About extends Component {
           <ContentWrapper>
             <AboutHeader>About</AboutHeader>
             <BioWrapper>
-              <ProfilePic src={profileImage} />
               <BioTextWrapper>
                 <BioText>
                   I am an IT-Professional with over 20 years of experience in

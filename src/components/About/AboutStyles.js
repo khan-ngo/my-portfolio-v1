@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   background: #fffdff;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   padding: 100px 0;
 `;
 
@@ -103,13 +103,6 @@ export const BioWrapper = styled.div`
   @media (max-width: 800px) {
     flex-direction: column;
   }
-`;
-
-export const ProfilePic = styled.img`
-  width: 200px
-  border-radius: 50%
-  border: 3px solid #444649;
-  margin: 0 35px 20px 35px;
 `;
 
 export const BioTextWrapper = styled.div`
