@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
-import Left from "./left";
 import Right from "./right";
 
 import {
   ProjectContainer,
   ProjectHeader,
   ContentWrapper,
-} from "./ProjectStyles";
+} from "./ExperienceStyles";
 
 class Experience extends Component {
   state = {};
@@ -18,8 +17,10 @@ class Experience extends Component {
         <ProjectContainer>
           <ProjectHeader>Work Experience</ProjectHeader>
         </ProjectContainer>
-        <Left />
-        <Right />
+
+        <ContentWrapper>
+          <Right />
+        </ContentWrapper>
       </Element>
     );
   }

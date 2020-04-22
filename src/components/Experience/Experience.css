@@ -1,163 +1,19 @@
-html,
-body {
-    font-family: Helvetica, 'Catamaran', sans-serif;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    letter-spacing: 0.3px;
-}
-
 a {
     text-decoration: none;
 }
 
-.left {
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-}
-
-
 .right {
-    width: 60%;
+    width: 90%;
     display: inline-block;
     vertical-align: top;
+    float: right;
+
 }
 
-
-
-.left {
-    color: #ffffff;
-    width: 40%;
-    height: 100%;
-    float: left;
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-}
-
-.left .bg-img {
-    background: url('../../assets/headshot1-bw.png') center no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.left .bg-img:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #185a9d;
-    background-image: linear-gradient(to right top, #537895, #8996ad);
-    opacity: 0.85;
-}
-
-.left-inner,
 .right-inner {
     padding: 25px;
 }
 
-
-.left-inner {
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    align-items: center;
-    min-height: 24em;
-    height: 100%;
-}
-
-.left .info {
-    -webkit-box-flex: 0;
-    -webkit-flex: none;
-    flex: none;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #fff;
-    width: 100%;
-    margin-top: 50%;
-    margin: 0 auto;
-}
-
-
-
-.left .info .name {
-    font-size: 50px;
-    font-weight: 900;
-    margin: 15px;
-}
-
-.left .info .profession {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-
-.left .info .social-links {
-    margin-top: 20px;
-}
-
-.left .info .fa {
-    margin: 10px;
-    font-size: 30px;
-    color: #fff;
-}
-
-
-
-.left .info {
-    flex: none;
-    position: relative;
-    color: #fff;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.right {
-    float: right;
-}
-
-
-.right h4,
-.right .content {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.right h4 {
-    position: relative;
-    top: 0px;
-    width: 20%;
-    margin: 0 0 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    background-color: #2A54F5;
-    background-image: -webkit-linear-gradient(45deg, #2A54F5 0%, #537895 100%);
-    background-image: linear-gradient(45deg, #2A54F5 0%, #537895 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-@supports (position: sticky) {
-    .right h4 {
-        position: sticky;
-        top: 0px;
-    }
-}
 
 .right ul {
     padding: 0;
@@ -165,7 +21,7 @@ a {
 }
 
 .right .content {
-    width: 75%;
+    width: 95%;
     padding: 0;
     margin: 0 0 20px;
     font-weight: 300;
@@ -173,7 +29,7 @@ a {
 }
 
 .right .content ul.description {
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top: 5px;
     font-size: 15px;
 }
@@ -192,50 +48,39 @@ a {
     display: inline-block;
 }
 
-.right .skills .skill-category {
-    margin-bottom: 10px;
+
+.right h4,
+.right .content {
+    display: inline-block;
+    vertical-align: top;
 }
 
-.right .skills .skill-category:last-of-type {
-    margin-bottom: 0px;
+.right h4,
+.right .content {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
 }
 
-.right .skills .skill-category>strong {
+.right h4 {
+    position: relative;
+    top: 0px;
+    width: 20%;
+    margin: 0 0 20px;
     text-transform: uppercase;
-    font-size: 14px;
 }
 
-.right .education {
-    font-size: 16px;
+@supports (position: sticky) {
+    .right h4 {
+        position: sticky;
+        top:
+            0px;
+    }
 }
-
-.right .education .edu-institution {
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.right .education .edu-program {
-    font-weight: 700;
-    font-style: italic;
-    margin-bottom: 5px;
-}
-
-.right .education .edu-description {
-    margin-bottom: 30px;
-}
-
-.right .education .edu-description>strong {
-    font-size: 14px;
-}
-
-.right .education {
-    margin-top: 10px;
-
-}
-
 
 .right .experience .exp-item {
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .right .experience .exp-item:last-of-type {

@@ -8,7 +8,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  max-width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
 `;
 

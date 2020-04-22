@@ -1,25 +1,30 @@
 import React, { Component } from "react";
+import "./Experience.css";
 
 class Right extends Component {
   render() {
     return (
       <div className="right">
         <div className="right-inner">
-          {/* Experience Section */}
           <div className="content">
             <div className="exp-item">
               <div className="job">
-                <a
-                  className="company"
-                  href="https://www.tjx.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  TJX Companies
-                </a>
+                <h4>
+                  <a
+                    className="company"
+                    href="https://www.tjx.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    TJX Companies
+                  </a>
+                </h4>
+                <div className="title">
+                  Software Engineer Co-op (Contractor)
+                </div>
                 <div className="duration">Feb. 2020 &mdash; March 2020</div>
+                <div className="location">Framingham, MA</div>
               </div>
-              <div className="title">Software Engineer Co-op (Contractor)</div>
               <ul className="description">
                 <li>
                   Support, monitor, and maintain critical web-functionality of
@@ -50,18 +55,21 @@ class Right extends Component {
             </div>
             <div className="exp-item">
               <div className="job">
-                <a
-                  className="company"
-                  href="https://www.leisurepassgroup.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Leisure Pass Group
-                </a>
+                <h4>
+                  <a
+                    className="company"
+                    href="https://www.leisurepassgroup.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Leisure Pass Group
+                  </a>
+                </h4>
+                <div className="title">
+                  Software Application Support Engineer / Java developer
+                </div>
                 <div className="duration">Sept. 2019 &mdash; Feb. 2020</div>
-              </div>
-              <div className="title">
-                Software Application Support Engineer / Java developer
+                <div className="location">Boston, MA</div>
               </div>
               <ul className="description">
                 <li>
@@ -109,18 +117,22 @@ class Right extends Component {
 
             <div className="exp-item">
               <div className="job">
-                <a
-                  className="company"
-                  href="https://www.vestmark.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Vestmark
-                </a>
+                <h4>
+                  <a
+                    className="company"
+                    href="https://www.vestmark.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Vestmark
+                  </a>
+                </h4>
+                <div className="title">
+                  Managed Services Team: Systems Engineer
+                </div>
+
                 <div className="duration">June 2018 &mdash; Sept. 2019</div>
-              </div>
-              <div className="title">
-                Managed Services Team: Systems Engineer
+                <div className="location">Wakefield, MA</div>
               </div>
               <ul className="description">
                 <li>
@@ -152,17 +164,21 @@ class Right extends Component {
 
             <div className="exp-item">
               <div className="job">
-                <a
-                  className="company"
-                  href="https://www.libertymutual.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Liberty Mutual Insurance Group (2011 – 2018)
-                </a>
+                <h4>
+                  <a
+                    className="company"
+                    href="https://www.libertymutual.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Liberty Mutual Insurance Group (2011 – 2018)
+                  </a>
+                </h4>
               </div>
-              <div className="duration">March 2017 &mdash; June 2018</div>
               <div className="title">Software Developer</div>
+
+              <div className="duration">March 2017 &mdash; June 2018</div>
+              <div className="location">Boston, MA</div>
               <ul className="description">
                 <li>
                   Produced clean and reusable software in fail-fast, rapid
@@ -189,9 +205,11 @@ class Right extends Component {
 
             <div className="exp-item">
               <div className="job">
+                <div className="title">Senior Software / Systems Engineer</div>
+
                 <div className="duration">Oct. 2011 &mdash; March 2017</div>
+                <div className="Location">Boston, MA</div>
               </div>
-              <div className="title">Senior Software / Systems Engineer</div>
               <ul className="description">
                 <li>
                   Designed clear, comprehensive system, technical and
@@ -220,14 +238,16 @@ class Right extends Component {
 
             <div className="exp-item">
               <div className="job">
-                <a
-                  className="company"
-                  href="https://www.statestreet.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  State Street Corporation (2000 - 2011)
-                </a>
+                <h4>
+                  <a
+                    className="company"
+                    href="https://www.statestreet.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    State Street Corporation (2000 - 2011)
+                  </a>
+                </h4>
               </div>
               <div className="duration">Nov. 2008 &mdash; Oct. 2011</div>
               <div className="title">Application Support Engineer</div>
