@@ -5,6 +5,13 @@ export const HeroContainer = styled.div`
   height: 100vh;
 `;
 
+export const ProfilePic = styled.img`
+  width: 200px
+  border-radius: 50%
+  border: 3px solid #444649;
+  margin: 0 35px 20px 35px;
+`;
+
 export const HeaderContainer = styled.div`
   @import url("https://fonts.googleapis.com/css?family=Arvo:400,700");
   font-family: "Arvo", serif;

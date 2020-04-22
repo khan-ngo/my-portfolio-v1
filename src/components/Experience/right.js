@@ -1,99 +1,10 @@
 import React, { Component } from "react";
-import "./Experience.css";
 
-class Experience extends Component {
+class Right extends Component {
   render() {
     return (
       <div className="right">
         <div className="right-inner">
-          <div className="skills">
-            <h4 className="category">Skills</h4>
-            <div className="content">
-              <div className="skill-category">
-                <strong>Languages: &nbsp;</strong>
-                <span>Java 8, HTML/CSS, JavaScript</span>
-              </div>
-              <div className="skill-category">
-                <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-                <span>
-                  Spring MVC, Spring Boot, JPA, Maven, jQuery, Bootstrap,
-                  MongoDB, PostgreSQL, MariaDB, Express, ReactJS
-                </span>
-              </div>
-              <div className="skill-category">
-                <strong>Tools: &nbsp;</strong>
-                <span>
-                  Git, GitHub, bitbucket, Jira, Confluence, Bamboo, CLI,
-                  Postman, JMeter, AppDynamics, Splunk, Unix/Linux, bash, Agile
-                </span>
-              </div>
-
-              <div className="skill-category">
-                <strong>Certifications: &nbsp;</strong>
-                <ul className="description">
-                  <li>AWS Certified Cloud Practitioner</li>
-                  <li>CompTia A+</li>
-                  <li>
-                    IT Information Library (ITIL) Foundations Certification
-                  </li>
-                  <li>Splunk Certified Architect 6.3</li>
-                  <li>Splunk Certified Admin</li>
-
-                  <li>Splunk Certified Knowledge Manager</li>
-                  <li>Splunk Certified Power User</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* Education Section */}
-          <div className="education">
-            <h4 className="category">Training</h4>
-            <div className="content">
-              <div className="edu-institution">
-                <a
-                  href="https://www.platformbyps.org/boston/application-developer"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Platform by Per Scholas
-                </a>
-              </div>
-              <div className="edu-program">Java Full-Stack Web Developer</div>
-              <div className="edu-description">
-                <strong>Description:</strong> Training covered exploration on
-                how to be efficient in Agile-Scrum project methodologies using
-                Jira. Managed databases requiring SQL and learned how to
-                install, configure, connect, query with MariaDB. Additional
-                topics included collections, basic I/O, JDBC, JPA, and Spring
-                MVC.
-              </div>
-
-              <div className="edu-institution">
-                <a
-                  href="https://generalassemb.ly/blog/tag/web-development-immersive"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  General Assembly
-                </a>
-              </div>
-              <div className="edu-program">
-                Web Development Immersive (WDI) Program
-              </div>
-              <div className="edu-description">
-                <strong>Description:</strong> Full Stack web development program
-                focusing on ES6 JavaScript, Bootstrap, JSON, jQuery, HTML5,
-                CSS3, Ruby, Rails, Node, Express, Ember, React.js, MongoDB,
-                Postgress, SQL, GIT, problem-solving, planning, modeling, and
-                maintaining applications with client-API architectures, as well
-                as software engineering principles including design patterns,
-                sorting algorithms, big O notation, recursion, and data
-                structures from linked lists to binary trees. This program
-                requires work in teams and independently to build functioning
-                sites that solve real- world business problems.
-              </div>
-            </div>
-          </div>
           {/* Experience Section */}
           <div className="experience">
             <h4 className="category">Experience</h4>
@@ -450,4 +361,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Right;

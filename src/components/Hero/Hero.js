@@ -4,12 +4,15 @@ import NavButton from "../Button/Button";
 import Particles from "../Particles/Particles";
 
 import {
+  ProfilePic,
   HeroContainer,
   HeaderContainer,
   TextContainer,
   NameText,
   JobText,
 } from "./HeroStyles";
+
+import profileImage from "../../assets/headshot.png";
 
 class Hero extends Component {
   smoothScroll() {
@@ -27,6 +30,7 @@ class Hero extends Component {
           <Particles />
           <HeaderContainer>
             <TextContainer>
+              <ProfilePic src={profileImage} />
               <NameText>Khanh Ngo</NameText>
               <JobText />
             </TextContainer>

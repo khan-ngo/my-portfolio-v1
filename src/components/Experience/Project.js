@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
-import Left from "./left";
-import Right from "./right";
 
 import {
   ProjectContainer,
@@ -17,8 +15,7 @@ class Experience extends Component {
       <Element name="Projects">
         <ProjectContainer>
           <ProjectHeader>Work Experience</ProjectHeader>
-          {/* <Left /> */}
-          <Right />
+
           <ContentWrapper />
         </ProjectContainer>
       </Element>
