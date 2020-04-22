@@ -107,7 +107,7 @@ class NavBar extends Component {
                 <NavLink>
                   <Link
                     activeClass="active"
-                    to="Projects"
+                    to="Experience"
                     spy={true}
                     smooth={true}
                     duration={500}
@@ -115,6 +115,7 @@ class NavBar extends Component {
                     EXPERIENCE
                   </Link>
                 </NavLink>
+
                 <NavLink>
                   <Link
                     activeClass="active"
@@ -132,7 +133,7 @@ class NavBar extends Component {
                 <DropdownMenuWrapper>
                   <NavLink onClick={this.smoothScrollHero}>HOME</NavLink>
                   <NavLink onClick={this.smoothScrollAbout}>ABOUT</NavLink>
-                  <NavLink onClick={this.smoothScrollProjects}>
+                  <NavLink onClick={this.smoothScrollExperience}>
                     EXPERIENCE
                   </NavLink>
                   <NavLink onClick={this.smoothScrollContact}>CONTACT</NavLink>

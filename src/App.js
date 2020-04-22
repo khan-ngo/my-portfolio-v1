@@ -17,7 +17,7 @@ class App extends Component {
         </Sticky>
         <About />
         <Experience />
-        {/* <Contact /> */}
+        <Contact />
       </Fragment>
     );
   }

@@ -18,7 +18,7 @@ class Right extends Component {
               </a>
             </h4>
             <div className="job">
-              <div className="title">Software Engineer Co-op (Contractor)</div>
+              <div className="title">Web Operations Engineer (Contractor)</div>
               <div className="location">Framingham, MA</div>
               <div className="duration">Feb. 2020 &mdash; March 2020</div>
 
@@ -203,7 +203,7 @@ class Right extends Component {
           <div className="exp-item">
             <div className="job">
               <div className="title">Senior Software / Systems Engineer</div>
-              <div className="Location">Boston, MA</div>
+              <div className="location">Boston, MA</div>
               <div className="duration">Oct. 2011 &mdash; March 2017</div>
               <ul className="description">
                 <li>

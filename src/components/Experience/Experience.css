@@ -3,159 +3,72 @@ a {
 }
 
 .right {
-    width: 90%;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
-    float: right;
-}
-
-.right-inner {
-    padding: 25px;
-    width: 95%;
-    margin: 0 0 20px;
-    font-weight: 300;
-    line-height: 1.5;
+    padding: 30px;
 }
 
 .right ul {
     padding-left: 45px;
     margin-top: 5px;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
-.company {
-    margin-top: 20px;
-}
-
-.right .introduction .intro-p:first-of-type {
-    margin-top: 0;
-}
-
-.right .introduction .job-plz {
-    font-weight: 700;
-    background-color: #2A54F5;
-    background-image: linear-gradient(45deg, #2A54F5 0%, #ff758c 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(45deg, #2A54F5 0%, #ff758c 100%);
-    display: inline-block;
-}
-
-
-.right h4,
-.right .content {
-    display: block;
-    vertical-align: top;
-    width: 100%;
-    height: 100%;
+.right .exp-item:last-of-type {
+    padding-bottom: 25px;
 }
 
 .right h4 {
     position: relative;
-    margin: 20px 0 0px;
+    margin: 0px 0px 0px;
     text-transform: uppercase;
 }
 
-@supports (position: sticky) {
-    .right h4 {
-        position: sticky;
-        top:
-            0px;
-    }
-}
-
-.right .experience .exp-item {
+.right .exp-item {
     margin-top: 30px;
 }
 
-.right .experience .exp-item:last-of-type {
-    margin-bottom: 0;
-}
-
-.right .experience .exp-item .job {
-    margin: 0;
-    font-weight: 700;
-}
-
-.right .experience .exp-item .duration {
-    font-size: 12px;
-    font-weight: 500;
-    float: right;
-    color: rgb(141, 131, 131);
+.right .exp-item .location {
     position: relative;
-    top: 3px;
+    float: right;
+    font-weight: 700;
+    color: rgb(87, 84, 84);
 }
 
-
-
-.right .experience .exp-item .title {
+.right .exp-item .title {
     font-weight: 700;
     font-style: italic;
 }
 
 
-@media screen and (max-width: 1000px) {
-    .left .info .name {
-        font-size: 35px;
-        margin: 10px;
-    }
 
-    .left .info .profession {
-        font-size: 12px;
-    }
-
-}
-
-/* Tablet */
-@media screen and (max-width: 800px) {
-    .left {
-        height: 100%;
-    }
-
-    .left,
+@media screen and (max-width: 650px) {
     .right {
         display: block;
-        width: 100%;
+        width: 90%;
+        padding: 20px;
+
     }
 
-    .left {
-        position: static;
+    .right h4 {
+        font-size: large;
     }
 
-    .left .info .name {
-        font-size: 30px;
-        margin: 5px;
-    }
-
-    .left .info .profession {
-        font-size: 12px;
-    }
-
-    .right h4,
-    .right .content {
-        display: block;
-        vertical-align: top;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-/* Mobile */
-
-@media screen and (max-width: 450px) {
-    .left-inner {
-        min-height: 15em;
-    }
-
-    .left-inner,
-    .right-inner {
-        padding: 15px;
-    }
-}
-
-
-@media screen and (max-width: 340px) {
-    .right .experience .exp-item .duration {
+    .right .exp-item .location {
         float: none;
     }
+
+}
+
+
+
+/* Mobile */
+@media screen and (max-width: 450px) {
+
+    .right {
+        min-height: 15em;
+        padding: 15px;
+    }
+
 }
