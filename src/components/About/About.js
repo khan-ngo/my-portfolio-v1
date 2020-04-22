@@ -30,10 +30,11 @@ class About extends Component {
             <BioWrapper>
               <BioTextWrapper>
                 <BioText>
-                  I am an IT-Professional with over 20 years of experience in
-                  Infratructure, Systems, and Application Support for highly
-                  visible, public facing Enterprise applications in the
-                  Financial, Insurance, and E-commerce industries.
+                  Hi! My name is Khanh. I am an IT-Professional with over 20
+                  years of experience in Infratructure, Systems, and Application
+                  Support for highly visible, public facing Enterprise
+                  applications in the Financial, Insurance, and E-commerce
+                  industries.
                 </BioText>
                 <BioText>
                   I have the skills, training ,and experience needed to help
@@ -73,7 +74,6 @@ class About extends Component {
                         </li>
                         <li>Splunk Certified Architect 6.3</li>
                         <li>Splunk Certified Admin</li>
-
                         <li>Splunk Certified Knowledge Manager</li>
                         <li>Splunk Certified Power User</li>
                       </ul>

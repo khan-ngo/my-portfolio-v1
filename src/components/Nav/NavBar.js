@@ -128,6 +128,7 @@ class NavBar extends Component {
                   </Link>
                 </NavLink>
               </MediaQuery>
+              {/* Hamberger Menu */}
               <MediaQuery maxWidth={800}>
                 <Hamburger className="fas fa-bars" onClick={this.toggle} />
                 <DropdownMenuWrapper>

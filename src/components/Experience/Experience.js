@@ -3,8 +3,8 @@ import { Element } from "react-scroll";
 import Right from "./right";
 
 import {
-  ProjectContainer,
-  ProjectHeader,
+  ExperienceContainer,
+  ExperienceHeader,
   ContentWrapper,
 } from "./ExperienceStyles";
 
@@ -13,10 +13,10 @@ class Experience extends Component {
 
   render() {
     return (
-      <Element name="Projects">
-        <ProjectContainer>
-          <ProjectHeader>Work Experience</ProjectHeader>
-        </ProjectContainer>
+      <Element name="Experience">
+        <ExperienceContainer>
+          <ExperienceHeader>Work Experience</ExperienceHeader>
+        </ExperienceContainer>
 
         <ContentWrapper>
           <Right />
