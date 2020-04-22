@@ -4,6 +4,7 @@ import Right from "./right";
 
 import {
   ExperienceContainer,
+  ExperienceHeaderContainer,
   ExperienceHeader,
   ContentWrapper,
 } from "./ExperienceStyles";
@@ -15,12 +16,14 @@ class Experience extends Component {
     return (
       <Element name="Experience">
         <ExperienceContainer>
-          <ExperienceHeader>Work Experience</ExperienceHeader>
-        </ExperienceContainer>
+          <ExperienceHeaderContainer>
+            <ExperienceHeader>Work Experience</ExperienceHeader>
+          </ExperienceHeaderContainer>
 
-        <ContentWrapper>
-          <Right />
-        </ContentWrapper>
+          <ContentWrapper>
+            <Right />
+          </ContentWrapper>
+        </ExperienceContainer>
       </Element>
     );
   }

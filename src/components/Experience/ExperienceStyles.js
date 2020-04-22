@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import { ModalHeader } from "reactstrap";
 
-export const ExperienceContainer = styled.div`
+export const ExperienceContainer = styled.div``;
+
+export const ExperienceHeaderContainer = styled.div`
   background: #444649;
-  padding: 100px 0;
+  padding: 50px 0;
   font-family: "Arvo", serif;
 `;
 
