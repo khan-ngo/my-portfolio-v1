@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { ModalHeader } from "reactstrap";
 
 export const ExperienceContainer = styled.div``;
 

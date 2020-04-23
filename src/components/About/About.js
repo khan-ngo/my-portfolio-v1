@@ -89,6 +89,7 @@ class About extends Component {
             </div>
             {/* Training Section */}
 
+            <Training />
             <Button
               name="View Resume"
               color="#444649"
@@ -103,7 +104,6 @@ class About extends Component {
           </ContentWrapper>
           <PDF toggle={this.togglePDF} isOpen={this.state.modal} />
         </AboutContainer>
-        <Training />
       </Element>
     );
   }

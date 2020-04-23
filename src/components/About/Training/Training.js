@@ -15,7 +15,7 @@ export default class Training extends Component {
   render() {
     return (
       <TrainingContainer>
-        <TrainingHeader>Training</TrainingHeader>
+        <TrainingHeader>BootCamp Training</TrainingHeader>
         <TrainingContent>
           <Program>
             <TrainingIcon>
@@ -49,8 +49,7 @@ export default class Training extends Component {
             <TrainingIcon>
               <span class="fa fa-code" />
             </TrainingIcon>
-
-            <TrainingProgramName>
+            <TrainingSchool>
               <a
                 href="https://generalassemb.ly/blog/tag/web-development-immersive"
                 rel="noopener noreferrer"
@@ -58,7 +57,7 @@ export default class Training extends Component {
               >
                 General Assembly
               </a>
-            </TrainingProgramName>
+            </TrainingSchool>
             <TrainingProgramName>Web Development Immersive</TrainingProgramName>
             <TrainingDescription>
               Full Stack web development program focusing on ES6 JavaScript,

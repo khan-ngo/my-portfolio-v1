@@ -35,25 +35,17 @@ export const Program = styled.div`
     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
-`;
-
-export const TrainingProgramName = styled.div`
-  color: darken(#a2a2a2, 20%);
-  font-size: 24px;
-  font-weight: 100;
-  transition: color 0.3s;
-
   &:after {
-    /* content: "";
-    position: relative; */
-    /* left: 50%;
-    top: 20px; */
-    /* transform: translateX(-50%); */
-    /* display: block;
+    content: "";
+    position: relative;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    display: block;
     width: 40px;
-    height: 1px; */
+    height: 1px;
     background: darken(#a2a2a2, 50%);
-    /* transition: width 0.3s;
+    transition: width 0.3s;
 
     &:hover &:after {
       width: 25px;
@@ -63,6 +55,13 @@ export const TrainingProgramName = styled.div`
       }
     }
   }
+`;
+
+export const TrainingProgramName = styled.div`
+  color: darken(#a2a2a2, 20%);
+  font-size: 24px;
+  font-weight: 100;
+  transition: color 0.3s;
 `;
 
 export const TrainingSchool = styled.div`
