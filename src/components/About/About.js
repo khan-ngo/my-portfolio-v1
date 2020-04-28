@@ -32,7 +32,7 @@ class About extends Component {
       <Element name="About">
         <AboutContainer>
           <AboutHeaderContainer>
-            <AboutHeader>About</AboutHeader>
+            <AboutHeader>About Me</AboutHeader>
           </AboutHeaderContainer>
 
           <ContentWrapper>
