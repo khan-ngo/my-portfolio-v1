@@ -40,11 +40,10 @@ class About extends Component {
               <ProfilePic src={profileImage} />
               <BioTextWrapper>
                 <BioText>
-                  Hi! My name is Khanh. I am an IT-Professional with over 20
-                  years of experience in Infratructure, Systems, and Application
-                  Support for highly visible, public facing Enterprise
-                  applications in the Financial, Insurance, and E-commerce
-                  industries.
+                  Hi! I'm Khanh, an IT-Professional with over 20 years of
+                  experience in Infratructure, Systems, and Application Support
+                  for highly visible, public facing Enterprise applications in
+                  the Financial, Insurance, and E-commerce industries.
                 </BioText>
                 <BioText>
                   I have the skills, training ,and experience needed to help

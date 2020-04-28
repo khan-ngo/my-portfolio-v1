@@ -1,14 +1,20 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContactContainer = styled.div`
   background: #182327;
-  padding: 100px 0 60px 0;
-  font-family: 'Arvo', serif;
+  padding: 50px 0;
+  font-family: "Arvo", serif;
 `;
 
 export const ContentWrapper = styled.div`
   max-width: 1400px;
   margin: 0 auto;
+`;
+
+export const ContactHeaderContainer = styled.div`
+  background: #182327;
+  padding: 50px 0;
+  font-family: "Arvo", serif;
 `;
 
 export const ContactHeader = styled.div`
@@ -22,36 +28,27 @@ export const ContactHeader = styled.div`
   }
 `;
 
-export const ContactSubHeader = styled.div`
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #c0c0c0;
-  padding-top: 20px;
+export const ContactContent = styled.div`
+  display: flex;
+  justify-content: center;
   text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: #c0c0c0;
+  padding: 20px 0;
 
   @media (max-width: 600px) {
     font-size: 1.4rem;
   }
 `;
 
-export const ContactForm = styled.div`
-  max-width: 600px;
-  margin: 40px auto 0;
-  padding: 0 20px;
-`;
-
-export const FormWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
 export const ButtonWrapper = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   max-width: 600px;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 10px auto;
+  padding: 10px 10px;
 
   @media (max-width: 600px) {
     justify-content: center;
@@ -62,28 +59,19 @@ export const SocialWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   max-width: 600px;
-  margin: 70px auto 40px;
+  margin: 30px auto 30px;
 `;
 
 export const Astyle = styled.a`
   color: #9d967c;
-  font-size: 2.8em;
+  font-size: 4rem;
 
   &:hover {
     color: #fffdff;
   }
 
   @media (max-width: 600px) {
-    font-size: 2.2rem;
-  }
-`;
-
-export const CopyrightText = styled.p`
-  text-align: center;
-  padding-top: 30px;
-  color: #c0c0c0;
-
-  @media (max-width: 600px) {
-    font-size: 0.9rem;
+    font-size: 3rem;
+    margin: 10px auto;
   }
 `;

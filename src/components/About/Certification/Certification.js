@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PDF from "../../PDF/PDF";
-import Button from "../../Button/Button";
 import { Element } from "react-scroll";
 
 import {
