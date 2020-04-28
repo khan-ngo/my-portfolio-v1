@@ -66,6 +66,17 @@ export const ContentWrapper = styled.div`
   align-items: center;
 `;
 
+export const IconContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+
+  @media (max-width: 600px) {
+    margin-top: 35px;
+  }
+`;
+
 export const IconTextWrapper = styled.div`
   max-width: 220px;
   display: flex;
@@ -76,6 +87,39 @@ export const IconTextWrapper = styled.div`
 
   @media (max-width: 600px) {
     max-width: 190px;
+  }
+`;
+
+export const IconHeader = styled.div`
+color: #444649;
+opacity: 0.7;
+  font-size: 1.25rem
+  font-weight: 600;
+
+  @media (max-width: 600px) {
+    font-size: 1.1rem;
+  }
+`;
+
+export const IconText = styled.div`
+  text-align: center;
+  color: #616161;
+  padding-top: 5px;
+  font-size: 0.9rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.85rem;
+  }
+`;
+
+export const Icon = styled.i`
+  color: #444649;
+  padding: 5px 80px;
+  opacity: 0.9;
+  font-size: 5em;
+
+  @media (max-width: 600px) {
+    font-size: 4em;
   }
 `;
 

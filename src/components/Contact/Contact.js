@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
-// import ProfileCard from "./ProfileCard/ProfileCard";
-
 import {
   ContactContainer,
   ContentWrapper,
@@ -20,7 +18,7 @@ class Contact extends Component {
         <ContactContainer>
           <ContentWrapper>
             <ContactHeader>Contact</ContactHeader>
-            {/* <ProfileCard /> */}
+
             <SocialWrapper>
               <Astyle
                 href="https://www.linkedin.com/in/khanh-ngo-8863193/"
