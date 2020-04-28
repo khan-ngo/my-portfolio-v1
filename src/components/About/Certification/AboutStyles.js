@@ -85,18 +85,11 @@ export const IconText = styled.div`
 `;
 
 export const Icon = styled.img`
-  /* color: #444649;
-         padding: 5px 80px;
-         opacity: 0.9;
-         font-size: 5em; */
 
   /* width: 200px; */
-  /* border: 3px solid #444649; */
   /* margin: 0 35px 20px 35px; */
   /* 
-  @media (max-width: 600px) {
-    font-size: 4em;
-  } */
+
 `;
 
 export const BioWrapper = styled.div`
