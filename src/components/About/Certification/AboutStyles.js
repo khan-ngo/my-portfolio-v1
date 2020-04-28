@@ -3,59 +3,7 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
   background: #fffdff;
   font-family: "Arvo", serif;
-  padding: 0;
-`;
-
-export const AboutHeaderContainer = styled.div`
-  background: #444649;
-  padding: 50px 0;
-  font-family: "Arvo", serif;
-`;
-
-export const AboutHeader = styled.div`
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 600;
-  color: #fffdff;
-  opacity: 0.9;
-
-  @media (max-width: 600px) {
-    font-size: 2.5rem;
-  }
-`;
-
-export const ProfilePic = styled.img`
-  width: 200px;
-  border-radius: 25%;
-  border: 3px solid #444649;
-  margin: 0 35px 20px 35px;
-`;
-
-export const BioTextWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0 20px;
-  max-width: 655px;
-
-  @media (max-width: 800px) {
-    margin: 0;
-    align-items: center;
-  }
-`;
-
-export const BioText = styled.div`
-  text-align: left;
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin-bottom: 5px;
-  padding: 0 15px;
-  color: #444649;
-
-  @media (max-width: 600px) {
-    font-size: 1.1rem;
-    text-align: center;
-  }
+  padding: 100px 0;
 `;
 
 export const ContentWrapper = styled.div`
@@ -64,6 +12,30 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+export const AboutHeader = styled.div`
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 25px;
+  font-weight: 600;
+  color: #9d967c;
+  line-height: 1.2;
+  @media (max-width: 600px) {
+    font-size: 2.8rem;
+  }
+`;
+
+export const AboutSubHeader = styled.div`
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #444649;
+  opacity: 0.7;
+  margin-top: 60px;
+
+  @media (max-width: 600px) {
+    font-size: 1.4rem;
+  }
 `;
 
 export const IconContainer = styled.div`
@@ -112,15 +84,19 @@ export const IconText = styled.div`
   }
 `;
 
-export const Icon = styled.i`
-  color: #444649;
-  padding: 5px 80px;
-  opacity: 0.9;
-  font-size: 5em;
+export const Icon = styled.img`
+  /* color: #444649;
+         padding: 5px 80px;
+         opacity: 0.9;
+         font-size: 5em; */
 
+  /* width: 200px; */
+  /* border: 3px solid #444649; */
+  /* margin: 0 35px 20px 35px; */
+  /* 
   @media (max-width: 600px) {
     font-size: 4em;
-  }
+  } */
 `;
 
 export const BioWrapper = styled.div`

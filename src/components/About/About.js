@@ -3,6 +3,7 @@ import PDF from "../PDF/PDF";
 import Button from "../Button/Button";
 import { Element } from "react-scroll";
 import Training from "./Training/Training";
+import Certification from "./Certification/Certification";
 
 import {
   AboutContainer,
@@ -12,7 +13,10 @@ import {
   BioWrapper,
   BioTextWrapper,
   BioText,
+  ProfilePic,
 } from "./AboutStyles";
+
+import profileImage from "../../assets/headshot-bw.png";
 
 class About extends Component {
   state = {
@@ -33,6 +37,7 @@ class About extends Component {
 
           <ContentWrapper>
             <BioWrapper>
+              <ProfilePic src={profileImage} />
               <BioTextWrapper>
                 <BioText>
                   Hi! My name is Khanh. I am an IT-Professional with over 20
@@ -45,9 +50,28 @@ class About extends Component {
                   I have the skills, training ,and experience needed to help
                   develop, support, and maintain software programs.
                 </BioText>
+                <Button
+                  name="View Resume"
+                  color="#444649"
+                  border="2px solid #444649"
+                  hoverFontColor="#fffdff"
+                  bgColor="#444649"
+                  borderColor="#444649"
+                  width="180px"
+                  fontSize="1.2rem"
+                  onClick={this.togglePDF}
+                />
+              </BioTextWrapper>
+            </BioWrapper>
+            <BioWrapper>
+              <BioTextWrapper>
+                <BioText />
               </BioTextWrapper>
             </BioWrapper>
 
+            {/* Training Section */}
+
+            <Training />
             <div>
               <h4>Skills</h4>
               <div>
@@ -70,37 +94,10 @@ class About extends Component {
                     Agile
                   </span>
                 </div>
-
-                <div>
-                  <strong>Certifications: &nbsp;</strong>
-                  <ul>
-                    <li>AWS Certified Cloud Practitioner</li>
-                    <li>CompTia A+</li>
-                    <li>
-                      IT Information Library (ITIL) Foundations Certification
-                    </li>
-                    <li>Splunk Certified Architect 6.3</li>
-                    <li>Splunk Certified Admin</li>
-                    <li>Splunk Certified Knowledge Manager</li>
-                    <li>Splunk Certified Power User</li>
-                  </ul>
-                </div>
               </div>
             </div>
-            {/* Training Section */}
 
-            <Training />
-            <Button
-              name="View Resume"
-              color="#444649"
-              border="2px solid #444649"
-              hoverFontColor="#fffdff"
-              bgColor="#444649"
-              borderColor="#444649"
-              width="180px"
-              fontSize="1.2rem"
-              onClick={this.togglePDF}
-            />
+            <Certification />
           </ContentWrapper>
           <PDF toggle={this.togglePDF} isOpen={this.state.modal} />
         </AboutContainer>
