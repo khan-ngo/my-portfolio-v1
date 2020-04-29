@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import { Element } from "react-scroll";
 import Training from "./Training/Training";
 import Certification from "./Certification/Certification";
-
+import Skill from "./Skill/Skill";
 import {
   AboutContainer,
   AboutHeaderContainer,
@@ -71,6 +71,7 @@ class About extends Component {
             {/* Training Section */}
 
             <Training />
+            <Skill />
             <div>
               <h4>Skills</h4>
               <div>

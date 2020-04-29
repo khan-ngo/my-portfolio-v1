@@ -60,7 +60,7 @@ export const BioText = styled.div`
 
 export const ContentWrapper = styled.div`
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
