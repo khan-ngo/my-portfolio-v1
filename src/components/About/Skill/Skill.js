@@ -5,29 +5,40 @@ export default class Skill extends Component {
   render() {
     return (
       <div>
-        <h1>Responsive Comma List</h1>
-
-        <p>
-          A bulleted list that collapses into a comma separated list for mobile.
-        </p>
-
-        <p>Shrink the browser window to see the transformation.</p>
+        <h1>Skills I have acquired</h1>
 
         <h4>Skills</h4>
-
-        <ul class="comma-list">
-          <li>HTML/HTML5</li>
-          <li>CSS/CSS3</li>
-          <li>JavaScript</li>
-          <li>Responsive Builds</li>
-          <li>Mobile Web Apps</li>
-          <li>Angular.js</li>
+        <ul className="comma-list">
+          <li>Java 8</li>
+          <li>SQL</li>
+          <li>HTML/CSS</li>
+          <li>JavaScript (ES6)</li>
+          <li>React</li>
           <li>Ajax</li>
-          <li>WordPress</li>
-          <li>Sass</li>
-          <li>Semantic Markup</li>
-          <li>Grunt/Gulp</li>
-          <li>Magento eCommerce</li>
+          <li>JQuery</li>
+          <li>Ajax</li>
+          <li>Bootstrap</li>
+          <li>JDBC</li>
+          <li>JPA</li>
+          <li>Maven</li>
+          <li>Spring MVC</li>
+          <li>Spring Boot</li>
+          <li>MongoDB</li>
+          <li>PostgreSQL</li>
+          <li>MariaDB</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Bitbucket</li>
+          <li>Jira</li>
+          <li>Confluence</li>
+          <li>Bamboo</li>
+          <li>Postman</li>
+          <li>JMeter</li>
+          <li>AppDynamics</li>
+          <li>Splunk</li>
+          <li>Unix/Linux</li>
+          <li>Bash</li>
+          <li>Agile</li>
         </ul>
       </div>
     );

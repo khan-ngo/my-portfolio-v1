@@ -72,30 +72,6 @@ class About extends Component {
 
             <Training />
             <Skill />
-            <div>
-              <h4>Skills</h4>
-              <div>
-                <div>
-                  <strong>Languages: &nbsp;</strong>
-                  <span>Java 8, HTML/CSS, JavaScript</span>
-                </div>
-                <div>
-                  <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-                  <span>
-                    Spring MVC, Spring Boot, JPA, Maven, jQuery, Bootstrap,
-                    MongoDB, PostgreSQL, MariaDB, Express, ReactJS
-                  </span>
-                </div>
-                <div>
-                  <strong>Tools: &nbsp;</strong>
-                  <span>
-                    Git, GitHub, bitbucket, Jira, Confluence, Bamboo, CLI,
-                    Postman, JMeter, AppDynamics, Splunk, Unix/Linux, bash,
-                    Agile
-                  </span>
-                </div>
-              </div>
-            </div>
 
             <Certification />
           </ContentWrapper>
