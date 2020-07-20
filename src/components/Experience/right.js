@@ -10,6 +10,64 @@ class Right extends Component {
             <h4>
               <a
                 className="company"
+                href="https://www.statestreet.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                CVS Health (2020 - Present)
+              </a>
+            </h4>
+            <div className="job">
+              <div className="title">Digital Monitoring Architect</div>
+              <div className="location">Woonsocket, Ri</div>
+              <div className="duration">July 2020 &mdash; Present</div>
+              <ul className="description">
+                <li>
+                  Provide subject matter expertise (SME) in the area of
+                  monitoring and alerting
+                </li>
+                <li>
+                  Make recommendations to improve metrics on Digital Key
+                  Performance Indicators (KPI’s) such as MTTD, MTTR, MTBF, etc
+                </li>
+                <li>
+                  Coordinate with the Digital Architecture team to align on core
+                  strategy and direction
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="exp-item">
+            <div className="job">
+              <div className="title">Digital Site Reliability Engineer</div>
+              <div className="location">Woonsocket, Ri</div>
+              <div className="duration">May. 2020 &mdash; July. 2020</div>
+              <ul className="description">
+                <li>
+                  Monitored and continuously improve the availability and
+                  performance of infrastructure, systems, and applications
+                </li>
+                <li>
+                  Partnered closely with product teams, customer engagement
+                  teams, application technical teams, business analysts to
+                  identify core business/technical metrics indicative of KPIs
+                  and system health
+                </li>
+                <li>
+                  Captured and analyzed data on Systems Availability, MTBF, and
+                  MTTR across all Digital channels; identify patterns and drive
+                  changes to both systems and processes to provide sustained
+                  improvements
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="exp-item">
+            <h4>
+              <a
+                className="company"
                 href="https://www.tjx.com"
                 rel="noopener noreferrer"
                 target="_blank"
