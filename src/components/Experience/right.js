@@ -40,7 +40,9 @@ class Right extends Component {
 
           <div className="exp-item">
             <div className="job">
-              <div className="title">Digital Site Reliability Engineer</div>
+              <div className="title">
+                Digital Site Reliability Engineer (Contractor)
+              </div>
               <div className="location">Woonsocket, Ri</div>
               <div className="duration">May. 2020 &mdash; July. 2020</div>
               <ul className="description">
